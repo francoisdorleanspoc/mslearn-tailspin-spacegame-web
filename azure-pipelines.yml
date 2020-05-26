@@ -61,5 +61,5 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'MyDevOpsDemo4Total'
-    appName: 'samplewebapp'
+    appName: samplewebapp
     package: $(System.DefaultWorkingDirectory)/**/*.zip
