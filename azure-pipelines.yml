@@ -61,5 +61,5 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'MyDevOpsDemo4Total'
-    appName: 'Tailspin.SpaceGame.Web'
+    appName: 'mslearn-tailspin-spacegame-web'
     package: $(System.DefaultWorkingDirectory)/**/*.zip
