@@ -62,4 +62,4 @@ steps:
   inputs:
     azureSubscription: 'MyDevOpsDemo4Total'
     appName: 'mysamplewebapp4devopsdemo'
-    package: $(System.DefaultWorkingDirectory)/**/*.zip
+    package: /home/vsts/work/1/a/**/*.zip
