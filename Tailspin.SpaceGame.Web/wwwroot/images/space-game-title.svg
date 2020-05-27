@@ -1,33 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 180 120" style="enable-background:new 0 0 180 120;" xml:space="preserve">
-<style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="space-game-title_color.svg"
+   xml:space="preserve"
+   style="enable-background:new 0 0 180 120;"
+   viewBox="0 0 180 120"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata27"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs25" /><sodipodi:namedview
+   inkscape:current-layer="Layer_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:cy="60"
+   inkscape:cx="52.76873"
+   inkscape:zoom="4.1893181"
+   showgrid="false"
+   id="namedview23"
+   inkscape:window-height="1017"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<style
+   id="style2"
+   type="text/css">
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M32.3,39.3c0,2.6-0.7,4.9-2.1,6.8c-1.4,1.9-3.3,3.4-5.9,4.3c-2.5,0.9-5.5,1.4-9.1,1.4c-4.1,0-7.8-0.7-11.2-2.1
-	V39c1.6,1.2,3.4,2.2,5.4,2.9c2,0.7,3.8,1.1,5.5,1.1c1.3,0,2.3-0.2,3-0.7c0.7-0.5,1.1-1.1,1.1-2c0-0.6-0.2-1.2-0.5-1.7
-	c-0.4-0.5-0.9-0.9-1.6-1.4c-0.7-0.4-2.1-1-4-1.7c-6.3-2.4-9.4-6.3-9.4-11.7c0-3.8,1.4-6.8,4.3-9.1s6.7-3.4,11.6-3.4
-	c1.4,0,2.6,0.1,3.8,0.2c1.1,0.1,2.2,0.2,3.1,0.4c0.9,0.2,2.3,0.5,3.9,0.9v10c-3.3-1.8-6.5-2.7-9.7-2.7c-1.3,0-2.4,0.2-3.2,0.7
-	c-0.8,0.5-1.2,1.2-1.2,2c0,0.8,0.3,1.5,1,2c0.6,0.5,2,1.2,4.1,2.1c4.1,1.6,6.9,3.4,8.6,5.4C31.4,34.3,32.3,36.6,32.3,39.3z"/>
-<path class="st0" d="M70.9,24.9c0,2.7-0.7,5-2,7.1c-1.4,2.1-3.3,3.7-5.8,4.8c-2.5,1.1-5.4,1.7-8.8,1.7h-3.6v12.6H38.9V12h16
-	c5.5,0,9.5,1,12.1,3.1C69.6,17.2,70.9,20.5,70.9,24.9z M58.4,25.3c0-1.6-0.5-2.8-1.4-3.6c-0.9-0.8-2.3-1.2-4.1-1.2h-2.2v9.7h2.6
-	C56.7,30.1,58.4,28.5,58.4,25.3z"/>
-<path class="st0" d="M98.2,51.1l-1.7-7.2H84.8L83,51.1H70.2L83.7,12h14.6L111,51.1H98.2z M90.8,20.5h-0.3c0,0.4-0.2,1.2-0.4,2.2
-	c-0.2,1-1.3,5.3-3.3,12.9h7.5l-2.7-10.6C91.2,23.4,90.9,21.9,90.8,20.5z"/>
-<path class="st0" d="M144.7,50.1c-3.2,1.2-7,1.7-11.2,1.7c-4.2,0-7.8-0.8-10.8-2.4c-3-1.6-5.3-3.9-6.9-6.8
-	c-1.6-2.9-2.4-6.3-2.4-10.2c0-4.1,0.9-7.8,2.7-11c1.8-3.2,4.3-5.7,7.6-7.5c3.3-1.8,7-2.6,11.2-2.6c3.4,0,6.7,0.4,9.8,1.2v10.9
-	c-1.1-0.7-2.4-1.2-3.9-1.5c-1.5-0.4-3-0.5-4.6-0.5c-3.2,0-5.7,0.9-7.6,2.8c-1.8,1.8-2.8,4.3-2.8,7.5c0,3.1,0.9,5.6,2.8,7.4
-	c1.8,1.8,4.3,2.7,7.4,2.7c2.9,0,5.7-0.7,8.6-2.2V50.1z"/>
-<path class="st0" d="M150.8,51.1V12h24.4v9.2h-12.6v5.7h11.8v9.2h-11.8v5.8H176v9.2H150.8z"/>
-<path class="st0" d="M39.3,105.6c-1.5,0.8-3.7,1.6-6.6,2.3c-2.9,0.7-5.7,1-8.4,1c-6.9,0-12.2-1.7-15.9-5.1
-	c-3.7-3.4-5.6-8.2-5.6-14.4c0-4.1,0.9-7.8,2.8-11c1.9-3.2,4.5-5.7,8-7.3c3.4-1.7,7.4-2.5,12.1-2.5c3.4,0,7,0.5,10.9,1.4v10.3
-	c-1.8-0.8-3.5-1.4-5.2-1.7C29.8,78.1,28,78,26,78c-3.2,0-5.8,1-7.7,2.9c-1.9,1.9-2.9,4.6-2.9,8c0,3.3,0.8,5.8,2.4,7.6
-	c1.6,1.8,3.9,2.8,6.8,2.8c1.3,0,2.3-0.1,3-0.2v-5.6h-7.5v-8.9h19.3V105.6z"/>
-<path class="st0" d="M72.4,108.2l-1.7-7.2H59l-1.9,7.2H44.4l13.5-39.1h14.6l12.7,39.1H72.4z M65,77.6h-0.3c0,0.4-0.2,1.2-0.4,2.2
-	c-0.2,1-1.3,5.3-3.3,12.9h7.5L65.7,82C65.4,80.4,65.1,79,65,77.6z"/>
-<path class="st0" d="M127.1,108.2V86.8c0-2,0.1-4.2,0.2-6.7l0.1-1.8h-0.3c-0.6,3.1-1,5.2-1.3,6.4l-5.8,23.5h-11.1l-6-23.2
-	c-0.2-0.6-0.6-2.8-1.3-6.7h-0.3c0.3,6.1,0.4,9.9,0.4,11.5v18.4H91.3V69.1H109l5.4,21.3c0.1,0.4,0.3,1.3,0.5,2.7
-	c0.2,1.3,0.3,2.4,0.4,3.1h0.2c0.2-1.7,0.5-3.6,1-5.9l5-21.1h17.4v39.1H127.1z"/>
-<path class="st0" d="M150.8,108.2V69.1h24.4v9.2h-12.6V84h11.8v9.2h-11.8V99H176v9.2H150.8z"/>
-</svg>
+
+
+
+
+
+
+
+
+
+<text
+   id="text31"
+   y="35.325733"
+   x="10.993485"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Bradley Hand ITC';-inkscape-font-specification:'Bradley Hand ITC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none"
+   xml:space="preserve"><tspan
+     style="font-size:53.3333px"
+     y="35.325733"
+     x="10.993485"
+     id="tspan29"
+     sodipodi:role="line"><tspan
+   id="tspan33"
+   style="font-size:53.3333px;fill:#ff0000">D</tspan>ev<tspan
+   id="tspan35"
+   style="font-size:53.3333px;fill:#ff0000">O</tspan>ps</tspan></text><text
+   id="text39"
+   y="95.958336"
+   x="15.27695"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+   xml:space="preserve"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;font-family:'Bradley Hand ITC';-inkscape-font-specification:'Bradley Hand ITC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     y="95.958336"
+     x="15.27695"
+     id="tspan37"
+     sodipodi:role="line">DEMO</tspan></text></svg>
