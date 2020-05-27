@@ -63,7 +63,7 @@ steps:
 - task: ApacheJMeterLoadTest@1
   inputs:
     #connectedServiceName: # Optional
-    testDrop: 'd:\a\1\s'
+    testDrop: 'd:\a\1\s\'
     loadTest: 'myjmetersampletestplanv4.jmx' 
     agentCount: '10' # Options: 1, 2, 3, 4, 5
     runDuration: '60' # Options: 60, 120, 180, 240, 300
