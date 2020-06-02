@@ -48,9 +48,9 @@ steps:
     versionSelector: 'latestStable'
 
 - task: DotNetCoreCLI@2
-  displayName: 'dotnet vstest CLI'
+  displayName: 'dotnet test CLI'
   inputs:
-    command: 'vstest'
+    command: 'test'
     arguments: '--collect:"Code Coverage"'
     projects: '**/*.csproj'
 
