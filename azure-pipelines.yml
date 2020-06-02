@@ -52,6 +52,9 @@ steps:
   inputs:
     command: 'test'
     arguments: '--collect "Code Coverage" -l "console;verbosity=detailed" --no-build -t'
+    publishTestResults: true
+    feedsToUse: 'select'
+    includeNuGetOrg: true
     projects: '**\*.csproj'
 
 - task: DotNetCoreCLI@2
@@ -78,4 +81,4 @@ steps:
   inputs:
     azureSubscription: 'MyDevOpsDemo4Total'
     appName: 'mysamplewebapp4devopsdemo'
-    package: d:\a\1\s\**\*.zip
+    package: d:\a\1\a\**\*.zip
