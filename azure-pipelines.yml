@@ -51,8 +51,8 @@ steps:
   displayName: 'Code Coverage for .NET Core'
   inputs:
     command: 'test'
-    arguments: '--collect "Code Coverage" --logger "console;verbosity=detailed"'
-    projects: '**/*.csproj'
+    arguments: '--collect "Code Coverage" -l "console;verbosity=detailed" --no-build -t'
+    projects: '**\*.csproj'
 
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - $(buildConfiguration)'
@@ -78,4 +78,4 @@ steps:
   inputs:
     azureSubscription: 'MyDevOpsDemo4Total'
     appName: 'mysamplewebapp4devopsdemo'
-    package: /home/vsts/work/1/a/**/*.zip
+    package: d:\a\1\s\**\*.zip
