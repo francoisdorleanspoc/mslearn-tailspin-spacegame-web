@@ -45,6 +45,13 @@ steps:
     arguments: '--no-restore --configuration $(buildConfiguration)'
     projects: '**/*.csproj'
 
+# Visual Studio test platform installer
+# Acquire the test platform from nuget.org or the tool cache. Satisfies the ‘vstest’ demand and can be used for running tests and collecting diagnostic data using the Visual Studio Test task.
+- task: VisualStudioTestPlatformInstaller@1
+  inputs:
+    packageFeedSelector: 'nugetOrg'
+    versionSelector: 'latestStable'
+
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
   inputs:
@@ -57,18 +64,6 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
-
-# Cloud-based Apache JMeter load test
-# Run an Apache JMeter load test in the cloud
-#- task: ApacheJMeterLoadTest@1
-#  inputs:
-#    #connectedServiceName: # Optional
-#    testDrop: 
-#   loadTest: 'myjmetersampletestplanv4.jmx' 
-#    agentCount: '10' # Options: 1, 2, 3, 4, 5
-#    runDuration: '60' # Options: 60, 120, 180, 240, 300
-#    geoLocation: 'Default' # Optional. Options: default, australia East, australia Southeast, brazil South, central India, central US, east Asia, east US 2, east US, japan East, japan West, north Central US, north Europe, south Central US, south India, southeast Asia, west Europe, west US
-#    machineType: '0' # Optional. Options: 0, 2
 
 - task: AzureWebApp@1
   inputs:
