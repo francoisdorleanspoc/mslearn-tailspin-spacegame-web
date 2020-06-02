@@ -39,19 +39,27 @@ steps:
     command: 'restore'
     projects: '**/*.csproj'
 
+# Visual Studio test platform installer
+# Acquire the test platform from nuget.org or the tool cache. Satisfies the ‘vstest’ demand and can be used for running tests and collecting diagnostic data using the Visual Studio Test task.
+- task: VisualStudioTestPlatformInstaller@1
+  displayName: 'Visual Studio test platform installer'
+  inputs:
+    packageFeedSelector: 'nugetOrg'
+    versionSelector: 'latestStable'
+
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet vstest CLI'
+  inputs:
+    command: 'vstest'
+    arguments: '--collect:"Code Coverage"'
+    projects: '**/*.csproj'
+
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - $(buildConfiguration)'
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration $(buildConfiguration)'
     projects: '**/*.csproj'
-
-# Visual Studio test platform installer
-# Acquire the test platform from nuget.org or the tool cache. Satisfies the ‘vstest’ demand and can be used for running tests and collecting diagnostic data using the Visual Studio Test task.
-- task: VisualStudioTestPlatformInstaller@1
-  inputs:
-    packageFeedSelector: 'nugetOrg'
-    versionSelector: 'latestStable'
 
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
