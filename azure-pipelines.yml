@@ -48,10 +48,10 @@ steps:
     versionSelector: 'latestStable'
 
 - task: DotNetCoreCLI@2
-  displayName: 'dotnet test CLI'
+  displayName: 'Code Coverage for .NET Core'
   inputs:
     command: 'test'
-    arguments: '--collect:"Code Coverage"'
+    arguments: '--collect "Code Coverage" --logger "console;verbosity=detailed"'
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
