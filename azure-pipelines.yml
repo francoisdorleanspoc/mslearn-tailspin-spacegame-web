@@ -54,7 +54,7 @@ steps:
     arguments: '--no-restore --configuration $(buildConfiguration)'
     projects: '**/*.csproj'
 
-- script: C:\hostedtoolcache\windows\dotnet\dotnet.exe test Tailspin.SpaceGame.Web --logger "trx;LogFileName=TestResults.trx" --collect "Code coverage"
+- script: C:\hostedtoolcache\windows\dotnet\dotnet.exe test Tailspin.SpaceGame.Web --logger trx --collect "Code coverage"
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
