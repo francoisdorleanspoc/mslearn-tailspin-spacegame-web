@@ -63,6 +63,12 @@ steps:
     feedsToUse: 'select'
     includeNuGetOrg: true
 
+- script: dotnet test Tailspin.SpaceGame.Web --logger trx --collect "Code coverage"
+- task: PublishTestResults@2
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
+
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
   inputs:
