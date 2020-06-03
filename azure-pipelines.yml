@@ -56,9 +56,10 @@ steps:
 
 - script: C:\hostedtoolcache\windows\dotnet\dotnet.exe test Tailspin.SpaceGame.Web --logger "trx;LogFileName=TestResults.trx" --collect "Code coverage"
 - task: PublishTestResults@2
+  condition: succeededOrFailed()
   inputs:
-    testResultsFormat: 'VSTest'
-    testResultsFiles: '**\*.trx'
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
 
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
