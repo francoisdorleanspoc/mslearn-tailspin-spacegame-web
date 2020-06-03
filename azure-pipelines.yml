@@ -63,7 +63,7 @@ steps:
     feedsToUse: 'select'
     includeNuGetOrg: true
 
-- script: dotnet test Tailspin.SpaceGame.Web --logger "trx;LogFileName=TestResults.trx" --collect "Code coverage"
+- script: C:\hostedtoolcache\windows\dotnet\dotnet.exe test Tailspin.SpaceGame.Web --logger "trx;LogFileName=TestResults.trx" --collect "Code coverage"
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'VSTest'
