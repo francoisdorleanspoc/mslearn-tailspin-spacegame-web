@@ -51,7 +51,7 @@ steps:
   displayName: 'Code Coverage for .NET Core'
   inputs:
     command: 'test'
-    arguments: '--logger "trx;LogFileName=TestResults.trx" --collect "Code Coverage" -l "console;verbosity=detailed" --no-build -t Tailspin.SpaceGame.Web'
+    arguments: '--configuration Debug --logger "trx;LogFileName=TestResults.trx" /p:TargetPlatform=x64 -- RunConfiguration.TargetPlatform=x64 --collect "Code Coverage" -l "console;verbosity=detailed" --no-build -t Tailspin.SpaceGame.Web'
     publishTestResults: true
     feedsToUse: 'select'
     includeNuGetOrg: true
