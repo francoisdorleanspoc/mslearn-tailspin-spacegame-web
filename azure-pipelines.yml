@@ -50,8 +50,8 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: 'Code Coverage for .NET Core'
   inputs:
-    command: 'test'
-    arguments: '--configuration Debug --logger "trx;LogFileName=TestResults.trx" /p:TargetPlatform=x64 -- RunConfiguration.TargetPlatform=x64 --collect:"code coverage" --collect-format:"coveragexml" -l "console;verbosity=detailed" --no-build -t Tailspin.SpaceGame.Web'
+    command: 'test --configuration Debug'
+    arguments: '/p:TargetPlatform=x64 -- RunConfiguration.TargetPlatform=x64 --collect:"code coverage" --collect-format:"coveragexml" -l "console;verbosity=detailed" --no-build -t Tailspin.SpaceGame.Web'
     publishTestResults: true
     feedsToUse: 'select'
     includeNuGetOrg: true
