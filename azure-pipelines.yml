@@ -54,7 +54,12 @@ steps:
     arguments: '--no-restore --configuration $(buildConfiguration)'
     projects: '**/*.csproj'
 
-- script: C:\hostedtoolcache\windows\dotnet\dotnet.exe test Tailspin.SpaceGame.Web --logger trx --collect "Code coverage"
+- task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration) --logger trx --collect "Code coverage"'
+
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
