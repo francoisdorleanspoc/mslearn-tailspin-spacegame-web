@@ -58,16 +58,16 @@ steps:
   displayName: 'Code Coverage for .NET Core'
   inputs:
     command: test
-    arguments: '--configuration $(buildConfiguration) --logger "trx;LogFileName=TestResults.trx" --collect "Code coverage"'
+    arguments: '--configuration $(buildConfiguration) --logger "trx;LogFileName=TestResults.trx" --results-directory d:\a --collect "Code coverage"'
     projects: '**/*.csproj'
     feedsToUse: 'select'
     includeNuGetOrg: true
 
-- script: C:\hostedtoolcache\windows\dotnet\dotnet.exe test Tailspin.SpaceGame.Web --logger "trx;LogFileName=TestResults.trx" --collect "Code coverage"
+- script: C:\hostedtoolcache\windows\dotnet\dotnet.exe test Tailspin.SpaceGame.Web --logger "trx;LogFileName=TestResults.trx" --results-directory d:\a --collect "Code coverage"
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'VSTest'
-    testResultsFiles: '**/*.trx'
+    testResultsFiles: 'd:\a\*.trx'
 
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
