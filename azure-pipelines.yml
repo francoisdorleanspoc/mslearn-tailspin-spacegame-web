@@ -60,11 +60,10 @@ steps:
     projects: '**/*.csproj'
     arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
 
-- task: PublishTestResults@2
-  condition: succeededOrFailed()
+- task: PublishCodeCoverageResults@1
   inputs:
-    testRunner: VSTest
-    testResultsFiles: '**/*.trx'
+    codeCoverageTool: 'JaCoCo'
+    summaryFileLocation: 'd:\a\_temp\'
 
 - task: DotNetCoreCLI@2
   displayName: 'Publish the project - $(buildConfiguration)'
