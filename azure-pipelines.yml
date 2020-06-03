@@ -59,7 +59,7 @@ steps:
   inputs:
     command: test
     arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
-    projects: '**/*Tests/*.csproj'
+    projects: '**/*.csproj'
     feedsToUse: 'select'
     includeNuGetOrg: true
 
