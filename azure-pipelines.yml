@@ -80,4 +80,4 @@ steps:
   inputs:
     azureSubscription: 'MyDevOpsDemo4Total'
     appName: 'mysamplewebapp4devopsdemo'
-    package: d:\a\1\a\**\*.zip
+    package: d:\a\1\a\**\Tailspin.SpaceGame.Web*.zip
