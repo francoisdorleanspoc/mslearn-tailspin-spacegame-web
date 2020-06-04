@@ -1,7 +1,11 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tailspin.SpaceGame.Web", "Tailspin.SpaceGame.Web\Tailspin.SpaceGame.Web.csproj", "{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService", "PrimeService\PrimeService.csproj", "{E0C1E41C-EB6A-4B0D-9DED-11758E2393A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService.Tests", "PrimeService.Tests\PrimeService.Tests.csproj", "{2189A2BB-9E8A-4DDD-A51C-A6253970C23A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +17,13 @@ Global
 		{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C1E41C-EB6A-4B0D-9DED-11758E2393A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C1E41C-EB6A-4B0D-9DED-11758E2393A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C1E41C-EB6A-4B0D-9DED-11758E2393A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C1E41C-EB6A-4B0D-9DED-11758E2393A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2189A2BB-9E8A-4DDD-A51C-A6253970C23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2189A2BB-9E8A-4DDD-A51C-A6253970C23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2189A2BB-9E8A-4DDD-A51C-A6253970C23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2189A2BB-9E8A-4DDD-A51C-A6253970C23A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
