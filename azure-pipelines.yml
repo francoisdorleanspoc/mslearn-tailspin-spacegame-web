@@ -58,9 +58,9 @@ steps:
   inputs:
     command: test
     projects: '**/*.csproj'
-    publishTestResults: true
+    publishTestResults: 'true'
     feedsToUse: 'select'
-    includeNuGetOrg: true
+    includeNuGetOrg: 'true'
     arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
 
 - task: DotNetCoreCLI@2
