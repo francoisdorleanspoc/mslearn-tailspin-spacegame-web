@@ -13,6 +13,8 @@ namespace Prime.UnitTests.Services
         }
 
         [Theory]
+        [InlineData(-3)]
+        [InlineData(-2)]
         [InlineData(-1)]
         [InlineData(0)]
         [InlineData(1)]
