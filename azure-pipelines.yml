@@ -19,7 +19,7 @@ steps:
     version: '$(dotnetSdkVersion)'
 
 - task: Npm@1
-  displayName: 'Run npm install'
+  displayName: 'npm install'
   inputs:
     verbose: false
 
@@ -42,7 +42,7 @@ steps:
 # Visual Studio test platform installer
 # Acquire the test platform from nuget.org or the tool cache. Satisfies the ‘vstest’ demand and can be used for running tests and collecting diagnostic data using the Visual Studio Test task.
 - task: VisualStudioTestPlatformInstaller@1
-  displayName: 'Visual Studio test platform installer'
+  displayName: 'VS test platform installer'
   inputs:
     packageFeedSelector: 'nugetOrg'
     versionSelector: 'latestStable'
@@ -78,6 +78,7 @@ steps:
   condition: succeeded()
 
 - task: AzureWebApp@1
+  displayName: 'Deploy WebApp'
   inputs:
     azureSubscription: 'MyDevOpsDemo4Total'
     appName: 'mysamplewebapp4devopsdemo'
